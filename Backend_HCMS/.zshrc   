@@ -1,0 +1,17 @@
+
+export PATH=${PATH}:/usr/local/mysql-8.0.41-macos15-arm64/bin
+
+# Maven
+export M2_HOME=/Users/sangram/Documents/ProjectFilesOS/apache-maven-3.9.11
+export PATH=$PATH:$M2_HOME/bin
+
+# MongoDB
+export PATH=$PATH:/Users/sangram/mongodb-macos-aarch64-7.0.30/bin
+
+# Python 3.11
+export PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:$PATH"
+
+#JAVA Maven
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH="$JAVA_HOME/bin:$PATH"
+
